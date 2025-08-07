@@ -1,13 +1,33 @@
-tensorflow==2.17.0
-langchain==0.0.255
-langchain-community==0.0.3
-huggingface_hub==0.16.4
-tokenizers
-transformers==4.11.3
-spacy==3.6.1
-torch==2.1.0
-numpy==1.24.2
+# Core Libraries
+numpy==1.26.4
 pandas==2.1.2
-scipy==1.10.0
+scipy==1.13.0
+tqdm>=4.66.2
+typing-extensions>=4.11.0
+python-dotenv>=1.0.1
+
+# Machine Learning & NLP
+torch==2.1.0
+tensorflow==2.17.0
 scikit-learn==1.2.2
+spacy==3.6.1
+tokenizers
+
+# Transformers & HuggingFace
+transformers==4.41.1
+huggingface_hub==0.16.4
+sentence-transformers>=2.2.2
+
+# LangChain & Vector Store
+langchain==0.1.14
+langchain-community==0.0.21
+langchainhub==0.1.14
 faiss-cpu==1.7.4
+chromadb>=0.4.22
+
+# Document Loading and Text Splitting
+unstructured>=0.12.6
+pypdf>=3.17.4
+
+# Streamlit UI
+streamlit>=1.33.0
